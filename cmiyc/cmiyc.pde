@@ -57,55 +57,55 @@ void draw() {
   image(img9, 400, 400, 200, 200);
   
   fill(white); 
-  text (tex1, 150.0, 200.0, 50.0, 30.0); 
+  rect ( 150.0, 200.0, 50.0, 30.0); 
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("hi",  150.0, 200.0, 50.0, 30.0);
    
   fill(white); 
-   text(text2,150.0, 400.0, 50.0, 30.0);
+  rect(150.0, 400.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("rrr",  150.0, 400.0, 50.0, 30.0); 
     
   fill(white); 
-   text(text3, 350.0, 0.0, 50.0, 30.0);
+  rect( 350.0, 0.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("1562",  350.0, 0.0, 50.0, 30.0); 
    
   fill(white); 
-  text(text4, 350.0, 200.0, 50.0, 30.0);
+  rect( 350.0, 200.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("10062",  350.0, 200.0, 50.0, 30.0);
         // text 5
   fill(white); 
-  rect(350.0, 400.0, 50.0, 30.0);
+  rect( 350.0, 400.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("02",  350.0, 400.0, 50.0, 30.0); 
           // text 6
   fill(white); 
- rect(550.0, 0.0, 50.0, 30.0);
+ rect( 550.0, 0.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("787",  550.0, 0.0, 50.0, 30.0); 
     // text 7
   fill(white); 
-  rect(550.0, 200.0, 50.0, 30.0);
+ rect( 550.0, 200.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("787",  550.0, 200.0, 50.0, 30.0); 
    // text 8
   fill(white); 
-  rect(550.0, 400.0, 50.0, 30.0);
+  rect( 550.0, 400.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("787",  550.0, 400.0, 50.0, 30.0); 
     // text 9
   fill(white); 
-   rect(150.0, 0.0, 50.0, 30.0);
+  rect( 150.0, 0.0, 50.0, 30.0);
   fill(0, 0, 0); 
   textAlign(CENTER, CENTER); 
   text("787",  150.0, 0.0, 50.0, 30.0); 
