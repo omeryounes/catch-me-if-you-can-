@@ -1,6 +1,7 @@
+
 String spaceBar = "Press the Space Bar to Continue";
 String quit = "Quit";
-PFont font;
+PFont font = text1, text2, text3, text4, text5, text6, text7, text8, text9;
 void textSetup() {
   //Minimum Expectation is SINGLE FONT
   //
@@ -20,6 +21,7 @@ void spaceBarText() {
   textFont(font, size); 
   text( spaceBar, startX, startY, startWidth, startHeight );
   fill(resetDefaultInk);
+ 
 }//End spaceBarText
 //
 void quitButtonText() {
