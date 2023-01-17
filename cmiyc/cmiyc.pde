@@ -21,9 +21,9 @@ color resetDefaultInk=#FFFFFF, white=#FFFFFF, purple=#FF00FF;
  */
 //
 void setup() {
-    //size(500, 600); //Remind you of Display Geometry
+    //size(600, 600); //Remind you of Display Geometry
   minim = new Minim(this); //load from data directory, loadFile should also load from project folder, like loadImage
-  song1 = minim.loadFile("../FreeWare Music/MusicDownload/Cycles.mp3");//able to pass absolute path, file name & extension, and URL
+  song1 = minim.loadFile("//FS-052/studuser$/Gr12/o.younes1/My Documents/GitHub-20221019T165601Z-001/GitHub/catch-me-if-you-can-/FreeWare Music/MusicDownload/Cycles.mp3");//able to pass absolute path, file name & extension, and URL
   size(600, 600);
     noStroke(); // remove the border around the squares
     colorMode(HSB);
